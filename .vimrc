@@ -24,6 +24,7 @@ Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'mtth/scratch.vim'
+Plugin 'konfekt/fastfold'
 
 " Elixir
 Plugin 'elixir-lang/vim-elixir'
@@ -97,6 +98,9 @@ imap <c-z> <c-o>u
 " Make tabbing in VISUAL mode keep highlighting
 vmap <tab> >gv
 vmap <s-tab> <gv
+
+" FastFold config
+let g:javaScript_folding=1
 
 " Smart indentation
 set autoindent
